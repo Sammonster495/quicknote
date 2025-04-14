@@ -1,5 +1,5 @@
 import { FileText, Plus, Search } from "lucide-react";
-import type { Note } from "prisma/generated/client";
+import type { Note } from "@prisma/client";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuItem } from "~/components/ui/sidebar";
 import { Input } from "~/components/ui/input";
 import { Separator } from "~/components/ui/separator";
